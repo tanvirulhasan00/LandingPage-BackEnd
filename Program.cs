@@ -84,7 +84,7 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 // Db connect
-builder.Services.AddDbContext<LandingPageDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("LocalDatabase")));
+builder.Services.AddDbContext<LandingPageDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("LiveDatabase")));
 
 // Versioning
 builder.Services.AddApiVersioning(options =>
@@ -123,26 +123,29 @@ builder.Services.AddAuthentication(x =>
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowSpecificOrigins", policy =>
-    {
-        policy.WithOrigins(
-            "http://localhost:3000",
-            "http://localhost:3001",
-            "http://localhost:5001",
-            "http://localhost:5001",
-            "http://localhost:5173",
-            "http://localhost:5274"
-            ) // Add allowed origins
-              .AllowAnyHeader()  // Allow specific headers or use .WithHeaders()
-              .AllowAnyMethod() // Allow specific methods or use .WithMethods()
-              .AllowAnyOrigin();
-    });
+{
+    policy.WithOrigins(
+        "http://localhost:3000",
+        "http://localhost:3001",
+        "http://localhost:5000",
+        "http://localhost:5001",
+        "http://localhost:5173",
+        "http://localhost:5274",
+        "http://httpool-001-site1.anytempurl.com",
+        "https://www.travello.agency",
+        "https://travello.agency",
+        "https://verdant-brioche-d5af3b.netlify.app"
+    )
+    .AllowAnyHeader()
+    .AllowAnyMethod();
+});
 
-    options.AddPolicy("AllowSpecificOrigins", policy =>
-    {
-        policy.AllowAnyOrigin()
-              .AllowAnyHeader()
-              .AllowAnyMethod();
-    });
+    // options.AddPolicy("AllowAll", policy =>
+    // {
+    //     policy.AllowAnyOrigin()
+    //           .AllowAnyHeader()
+    //           .AllowAnyMethod();
+    // });
 });
 
 var app = builder.Build();

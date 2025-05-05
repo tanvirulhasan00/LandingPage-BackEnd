@@ -17,7 +17,7 @@ namespace LandingPage.Models
         public int Price { get; set; }
         public string? ProductImageUrl { get; set; }
 
-        public string UserId { get; set; }
+        public string? UserId { get; set; }
         [ForeignKey("UserId")]
         public ApplicationUser User { get; set; }
     }

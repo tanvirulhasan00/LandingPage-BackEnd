@@ -12,7 +12,7 @@ namespace LandingPage.Models
         [Key]
         public int Id { get; set; }
         public string OrderNumber { get; set; }
-        public int ProductId { get; set; }
+        public int? ProductId { get; set; }
         [ForeignKey("ProductId")]
         public Product Product { get; set; }
 
