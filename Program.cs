@@ -162,23 +162,24 @@ if (app.Environment.IsDevelopment())
 }
 else
 {
-    app.UseSwagger();
-    app.UseSwaggerUI(c =>
-    {
-        c.SwaggerEndpoint("/swagger/v1/swagger.json", "LandingPage Api v1");
-        c.SwaggerEndpoint("/swagger/v2/swagger.json", "LandingPage Api v2");
-    });
+    // app.UseSwagger();
+    // app.UseSwaggerUI(c =>
+    // {
+    //     c.SwaggerEndpoint("/swagger/v1/swagger.json", "LandingPage Api v1");
+    //     c.SwaggerEndpoint("/swagger/v2/swagger.json", "LandingPage Api v2");
+    // });
 }
 
 app.MapGet("/", context =>
 {
-    context.Response.Redirect("/swagger");
+    context.Response.Redirect("/login");
     return Task.CompletedTask;
 });
 app.UseCors("AllowSpecificOrigins");
 // Enable serving static files from wwwroot
+app.UseDefaultFiles();
 app.UseStaticFiles();
-
+app.MapFallbackToFile("index.html");
 app.UseAuthentication();
 app.UseAuthorization();
 app.UseHttpsRedirection();

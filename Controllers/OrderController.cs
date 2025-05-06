@@ -143,17 +143,15 @@ namespace LandingPage.Controllers
                     DeliveryMethod = request.DeliveryMethod,
                     DeliveryStatus = "In Process",
                     PaymentMethod = request.PaymentMethod,
-                    PaymentStatus = "In Process",
+                    PaymentStatus = "Pending",
                     TotalPrice = int.Parse(request.TotalPrice),
                     Quantity = request.Quantity,
-                    FirstName = request.FirstName,
-                    LastName = request.LastName,
+                    PaymentAccountNumber = request.PaymentAccountNumber,
+                    TransactionId = request.TransactionId,
+                    FullName = request.FullName,
                     Address = request.Address,
                     PhoneNumber = request.PhoneNumber,
                     Email = request.Email,
-                    District = request.District,
-                    SubDistrict = request.SubDistrict,
-                    Comment = request.Comment,
                 };
                 var orderRes = new OrderResponseDto()
                 {
