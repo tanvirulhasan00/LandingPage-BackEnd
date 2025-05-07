@@ -134,6 +134,8 @@ builder.Services.AddCors(options =>
         "http://httpool-001-site1.anytempurl.com",
         "https://www.travello.agency",
         "https://travello.agency",
+        "http://travello.agency",
+        "http://www.travello.agency",
         "https://verdant-brioche-d5af3b.netlify.app"
     )
     .AllowAnyHeader()

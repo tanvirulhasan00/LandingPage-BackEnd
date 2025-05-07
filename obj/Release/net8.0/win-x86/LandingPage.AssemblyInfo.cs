@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LandingPage")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56af0e9f4f38ff899cfd2bd342526ef49bbd44a5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c04f1039ad1ca3e6cac00df76aec3ecff49fc00")]
 [assembly: System.Reflection.AssemblyProductAttribute("LandingPage")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LandingPage")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

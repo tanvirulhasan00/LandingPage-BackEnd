@@ -54,24 +54,6 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\chunk-LSOULM7L-DPBAfQZR.js'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\client-CXgrbgde.js'))">
-      <SourceType>Package</SourceType>
-      <SourceId>LandingPage</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/LandingPage</BasePath>
-      <RelativePath>assets/client-CXgrbgde.js</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>2gk4d3mg13</Fingerprint>
-      <Integrity>grnsoZlveLVR7I29BVtIbmtOM1QtH8slsylUEMiu2FM=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\client-CXgrbgde.js'))</OriginalItemSpec>
-    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\dashboard-DUYwbuhS.js'))">
       <SourceType>Package</SourceType>
       <SourceId>LandingPage</SourceId>
@@ -126,41 +108,41 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\divider-P2BD-NP3.js'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\entry.client-5A4gDprm.js'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\entry.client-C7d3y8cI.js'))">
       <SourceType>Package</SourceType>
       <SourceId>LandingPage</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/LandingPage</BasePath>
-      <RelativePath>assets/entry.client-5A4gDprm.js</RelativePath>
+      <RelativePath>assets/entry.client-C7d3y8cI.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>8exorg63q0</Fingerprint>
-      <Integrity>8OXQTsdVyE6DDMOqp7SO+AeQWVy7tJF9NlC8OKcc2C4=</Integrity>
+      <Fingerprint>e5kwl8leyx</Fingerprint>
+      <Integrity>AlPgQxFF8eNoM7ipOX65EIg7lhI0H7WMkpgKk5pP4Hc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\entry.client-5A4gDprm.js'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\entry.client-C7d3y8cI.js'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\home-BLGPGopb.js'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\home-BtKV4UK-.js'))">
       <SourceType>Package</SourceType>
       <SourceId>LandingPage</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/LandingPage</BasePath>
-      <RelativePath>assets/home-BLGPGopb.js</RelativePath>
+      <RelativePath>assets/home-BtKV4UK-.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>29yc7b9nm9</Fingerprint>
-      <Integrity>mgQljfHvrHusWPFDK3eDtZXP9asrNLuu9GdTGxgWSG4=</Integrity>
+      <Fingerprint>0qrz0nb7d3</Fingerprint>
+      <Integrity>GKPQkUbANdQZ0bSgY4wu5gnh9KaqSVL4cOlqlvaAP9s=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\home-BLGPGopb.js'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\home-BtKV4UK-.js'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\index-BXFG3lbm.js'))">
       <SourceType>Package</SourceType>
@@ -180,6 +162,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\index-BXFG3lbm.js'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\index-Cl6urRmQ.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LandingPage</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LandingPage</BasePath>
+      <RelativePath>assets/index-Cl6urRmQ.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>o2pefeu9b7</Fingerprint>
+      <Integrity>cP0qnAWPG+IFbl3bWLN5OLaDrKRIYZFCgnaMMCJUvDY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\index-Cl6urRmQ.js'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\input-DgVKBx4z.js'))">
       <SourceType>Package</SourceType>
       <SourceId>LandingPage</SourceId>
@@ -198,41 +198,41 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\input-DgVKBx4z.js'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\login-kiKeKj9n.js'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\login-BO3RN5EA.js'))">
       <SourceType>Package</SourceType>
       <SourceId>LandingPage</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/LandingPage</BasePath>
-      <RelativePath>assets/login-kiKeKj9n.js</RelativePath>
+      <RelativePath>assets/login-BO3RN5EA.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>oq83nzbv3s</Fingerprint>
-      <Integrity>AF4p2BryrgDeQ+eBRGlhrHLSAJZjZ2KvP4bJXIIZr2Y=</Integrity>
+      <Fingerprint>wc2ayt42xc</Fingerprint>
+      <Integrity>cOA8bbqfml5cNBLIEF37DDlUxdfAa2hwa5nHAkpTfUE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\login-kiKeKj9n.js'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\login-BO3RN5EA.js'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\manifest-137e6b74.js'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\manifest-a03e3af2.js'))">
       <SourceType>Package</SourceType>
       <SourceId>LandingPage</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/LandingPage</BasePath>
-      <RelativePath>assets/manifest-137e6b74.js</RelativePath>
+      <RelativePath>assets/manifest-a03e3af2.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>le1l43x3dh</Fingerprint>
-      <Integrity>XTrSRW2R2VoXzPD3G0P5TnM/aQqcImlbNibo8EVb1IY=</Integrity>
+      <Fingerprint>iaix0ie0jd</Fingerprint>
+      <Integrity>Jr3OatfPt2af348Yop1hQfldvCC9q9jjRpwN6kN42Lk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\manifest-137e6b74.js'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\manifest-a03e3af2.js'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\notification-CQ38g674.js'))">
       <SourceType>Package</SourceType>
@@ -252,41 +252,41 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\notification-CQ38g674.js'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\order-0U1n1XYP.js'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\order-DWzWZUg-.js'))">
       <SourceType>Package</SourceType>
       <SourceId>LandingPage</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/LandingPage</BasePath>
-      <RelativePath>assets/order-0U1n1XYP.js</RelativePath>
+      <RelativePath>assets/order-DWzWZUg-.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>g93sypmu3l</Fingerprint>
-      <Integrity>hEUjcmfBZUxX+j20BC+FzMpAOAgKHQuLSFPec2ZK8bg=</Integrity>
+      <Fingerprint>21s7ups7sf</Fingerprint>
+      <Integrity>puvxghHkJMt4F/TgonUfvdyMTqZeU+NClw2nQKj+lXQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\order-0U1n1XYP.js'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\order-DWzWZUg-.js'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\payment-CmzSLeai.js'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\payment-Dsh3gPj4.js'))">
       <SourceType>Package</SourceType>
       <SourceId>LandingPage</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/LandingPage</BasePath>
-      <RelativePath>assets/payment-CmzSLeai.js</RelativePath>
+      <RelativePath>assets/payment-Dsh3gPj4.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>whtwoboang</Fingerprint>
-      <Integrity>rH7dt7UrW2mAHrrrsCfPmspZ+92dzCwOcrTJlcDEr/A=</Integrity>
+      <Fingerprint>d9hjftnpit</Fingerprint>
+      <Integrity>IZGH4b7bTQ8nZcbAd2iUGoswH3bQAcfa4/1E1dkRCBQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\payment-CmzSLeai.js'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\payment-Dsh3gPj4.js'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\payment-success-BeEREZL4.js'))">
       <SourceType>Package</SourceType>
@@ -306,23 +306,23 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\payment-success-BeEREZL4.js'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\product-CT_EbuPv.js'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\product-BdK1BpR4.js'))">
       <SourceType>Package</SourceType>
       <SourceId>LandingPage</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/LandingPage</BasePath>
-      <RelativePath>assets/product-CT_EbuPv.js</RelativePath>
+      <RelativePath>assets/product-BdK1BpR4.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>sdzrh780ii</Fingerprint>
-      <Integrity>4JgU0LuRAllvJ/sf36qDd6pduyQPjvwSAx2hIWoC6u4=</Integrity>
+      <Fingerprint>rr0u6894hu</Fingerprint>
+      <Integrity>Z9Xt5f6OI2ZKYPX8r998xgiYRDYqS1/k6i25+wOI7Ok=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\product-CT_EbuPv.js'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\product-BdK1BpR4.js'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\product_item-CnKrH8n7.js'))">
       <SourceType>Package</SourceType>
@@ -360,59 +360,59 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\product_item_create-DqgYZEvC.js'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\response-BzeC0MZm.js'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\response-DKRG4e3a.js'))">
       <SourceType>Package</SourceType>
       <SourceId>LandingPage</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/LandingPage</BasePath>
-      <RelativePath>assets/response-BzeC0MZm.js</RelativePath>
+      <RelativePath>assets/response-DKRG4e3a.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>2vcjew9zap</Fingerprint>
-      <Integrity>3mXRs4rINexT5raqE9YI2SVHyeBw3/fHS0aO2vUJor8=</Integrity>
+      <Fingerprint>m5r3vqf2r9</Fingerprint>
+      <Integrity>xrwA4ebyrc7v+p9+KhkCvnyllpJizwB+WJ40qFqydC0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\response-BzeC0MZm.js'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\response-DKRG4e3a.js'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\root-Ct5odcEJ.js'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\root-BdLk3a60.js'))">
       <SourceType>Package</SourceType>
       <SourceId>LandingPage</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/LandingPage</BasePath>
-      <RelativePath>assets/root-Ct5odcEJ.js</RelativePath>
+      <RelativePath>assets/root-BdLk3a60.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>823cf2411s</Fingerprint>
-      <Integrity>gNF52QcyvCs4fq76DIVmrjx4LFEyhgcHp/N5iBYAhHY=</Integrity>
+      <Fingerprint>0rvgq2lr0a</Fingerprint>
+      <Integrity>vLYg0bJB914j/rLPtwgSyQHVi4Tdj8bqW43fkg7TGks=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\root-Ct5odcEJ.js'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\root-BdLk3a60.js'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\root-D7F1KxOl.css'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\root-DXihSNyD.css'))">
       <SourceType>Package</SourceType>
       <SourceId>LandingPage</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/LandingPage</BasePath>
-      <RelativePath>assets/root-D7F1KxOl.css</RelativePath>
+      <RelativePath>assets/root-DXihSNyD.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>c0e8u1ndmm</Fingerprint>
-      <Integrity>7CqzSL8FX3gL4p+7HiGDz/W3sa3jpD5Q670QmzNo+AE=</Integrity>
+      <Fingerprint>0d5svn3vgf</Fingerprint>
+      <Integrity>JDWm6XuVECE9OOQmVwO2yBfY3tNEL+QOoLTi2jiya+E=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\root-D7F1KxOl.css'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\root-DXihSNyD.css'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\table-NR0rbp1q.js'))">
       <SourceType>Package</SourceType>
@@ -750,8 +750,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>uq5jtfjojs</Fingerprint>
-      <Integrity>KlOEtKHJhfvAG46FbJtXqXl5l4q7t8iZGHgjtedDxkM=</Integrity>
+      <Fingerprint>wdaosb84ey</Fingerprint>
+      <Integrity>lHKbDK6TKI0uzJD09X863LQP/feG5aGQsSDrr9nL6AA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</OriginalItemSpec>
