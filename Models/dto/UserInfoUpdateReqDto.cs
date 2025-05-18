@@ -17,7 +17,6 @@ namespace LandingPage.Models.Dto
         public string? Email { get; set; }
         public string? Address { get; set; }
         public IFormFile? ImageUrl { get; set; }
-        public string? Active { get; set; }
 
     }
 }

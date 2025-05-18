@@ -13,6 +13,7 @@ namespace LandingPage.Data
     {
         public DbSet<ApplicationUser>? ApplicationUsers { get; set; }
         public DbSet<AllCost>? AllCosts { get; set; }
+        public DbSet<CompanyInfo>? CompanyProfile { get; set; }
         public DbSet<Product>? Products { get; set; }
         public DbSet<ProductSize>? ProductSizes { get; set; }
         public DbSet<ProductDefination>? ProductDefinations { get; set; }

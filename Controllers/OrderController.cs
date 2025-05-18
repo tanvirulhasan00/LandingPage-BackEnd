@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
+using System.Security.Claims;
 using System.Threading.Tasks;
 using LandingPage.Models;
 using LandingPage.Models.dto;
@@ -26,7 +27,7 @@ namespace LandingPage.Controllers
 
         [HttpGet]
         [Route("getall")]
-        [Authorize(Roles = "admin,user")]
+        [Authorize(Roles = "admin,user,guest")]
         public async Task<ApiResponse> GetAllOrder(string user, CancellationToken cancellationToken)
         {
             try
@@ -70,7 +71,7 @@ namespace LandingPage.Controllers
 
         [HttpGet]
         [Route("get")]
-        [Authorize(Roles = "admin,user")]
+        [Authorize(Roles = "admin,user,guest")]
         public async Task<ApiResponse> GetOrder(int Id, CancellationToken cancellationToken)
         {
             try
@@ -133,6 +134,11 @@ namespace LandingPage.Controllers
                     return response;
                 }
                 var orderNumber = GenerateOrderNumber();
+                var status = "Pending";
+                // if (!string.IsNullOrEmpty(request.PaymentAccountNumber) && !string.IsNullOrEmpty(request.TransactionId))
+                // {
+                //     status = "Paid";
+                // }
 
                 var orders = new Order
                 {
@@ -143,7 +149,7 @@ namespace LandingPage.Controllers
                     DeliveryMethod = request.DeliveryMethod,
                     DeliveryStatus = "In Process",
                     PaymentMethod = request.PaymentMethod,
-                    PaymentStatus = "Pending",
+                    PaymentStatus = status,
                     TotalPrice = int.Parse(request.TotalPrice),
                     Quantity = request.Quantity,
                     PaymentAccountNumber = request.PaymentAccountNumber,
@@ -156,11 +162,13 @@ namespace LandingPage.Controllers
                 var orderRes = new OrderResponseDto()
                 {
                     DeliveryMethod = request.DeliveryMethod,
-                    DeliveryStatus = request.DeliveryStatus,
+                    DeliveryStatus = "In Process",
                     PaymentMethod = request.PaymentMethod,
-                    PaymentStatus = request.PaymentStatus,
+                    PaymentStatus = status,
                     TotalPrice = request.TotalPrice,
-                    OrderNumber = orderNumber
+                    OrderNumber = orderNumber,
+                    FullName = request.FullName,
+                    PhoneNumber = request.PhoneNumber,
                 };
 
                 await _unitOfWork.Orders.AddAsync(orders);
@@ -281,6 +289,75 @@ namespace LandingPage.Controllers
                 response.Success = true;
                 response.StatusCode = HttpStatusCode.OK;
                 response.Message = "Delivery status updated.";
+                return response;
+            }
+            catch (Exception ex)
+            {
+                response.Success = false;
+                response.StatusCode = HttpStatusCode.InternalServerError;
+                response.Message = ex.Message;
+                return response;
+            }
+        }
+
+        [HttpDelete("delete")]
+        [Authorize(Roles = "admin,user")]
+        public async Task<ApiResponse> DeleteOrder(int Id, CancellationToken cancellationToken)
+        {
+            try
+            {
+                if (Id <= 0)
+                {
+                    response.Success = false;
+                    response.StatusCode = HttpStatusCode.BadRequest;
+                    response.Message = "Valid id required";
+                    return response;
+                }
+
+                var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+                var userRole = User.FindFirstValue(ClaimTypes.Role);
+
+                var orders = await _unitOfWork.Orders.GetAsync(new GenericRequest<Order>
+                {
+                    Expression = x => x.Id == Id,
+                    NoTracking = true,
+                    IncludeProperties = null,
+                    CancellationToken = cancellationToken
+                });
+
+                if (orders == null)
+                {
+                    response.Success = false;
+                    response.StatusCode = HttpStatusCode.NotFound;
+                    response.Message = "Order data not found.";
+                    return response;
+                }
+
+                // Check if the user is an admin or the owner of the Order
+                if (userRole == "admin" || userRole == "user")
+                {
+
+
+                    _unitOfWork.Orders.Remove(orders);
+                    await _unitOfWork.Save();
+
+                    response.Success = true;
+                    response.StatusCode = HttpStatusCode.OK;
+                    response.Message = "Order deleted successfully.";
+                    return response;
+                }
+
+                // If not an admin and not the owner
+                response.Success = false;
+                response.StatusCode = HttpStatusCode.Forbidden;
+                response.Message = "You do not have permission to delete this Order.";
+                return response;
+            }
+            catch (TaskCanceledException ex)
+            {
+                response.Success = false;
+                response.StatusCode = HttpStatusCode.RequestTimeout;
+                response.Message = ex.Message;
                 return response;
             }
             catch (Exception ex)

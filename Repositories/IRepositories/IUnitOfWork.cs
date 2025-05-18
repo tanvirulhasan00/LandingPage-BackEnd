@@ -18,6 +18,7 @@ namespace LandingPage.Repositories.IRepositories
         public IFileRepository File { get; }
         public IProductDefinationRepository ProductDefination { get; }
         public IAllCostRepository AllCost { get; }
+        public ICompanyRepository CompanyInfo { get; }
 
         Task<int> Save();
     }

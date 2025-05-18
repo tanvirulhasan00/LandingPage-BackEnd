@@ -14,6 +14,7 @@ namespace LandingPage.Models
         public string Name { get; set; }
         public string Color { get; set; }
         public string Size { get; set; }
+        public string ProductDescription { get; set; }
         public int Price { get; set; }
         public string? ProductImageUrl { get; set; }
 

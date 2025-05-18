@@ -158,14 +158,8 @@
 /Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage v1/bin/Debug/net8.0/LandingPage.staticwebassets.runtime.json
 /Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage v1/bin/Debug/net8.0/JWT.dll
 /Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage v1/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
-/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/bin/Debug/net8.0/publish/web.config
 /Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/bin/Debug/net8.0/appsettings.Development.json
 /Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/bin/Debug/net8.0/appsettings.json
-/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/bin/Debug/net8.0/publish/appsettings.Development.json
-/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/bin/Debug/net8.0/publish/appsettings.json
-/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/bin/Debug/net8.0/publish/LandingPage.deps.json
-/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/bin/Debug/net8.0/publish/LandingPage.runtimeconfig.json
-/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/bin/Debug/net8.0/publish/LandingPage.staticwebassets.endpoints.json
 /Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/bin/Debug/net8.0/LandingPage.staticwebassets.runtime.json
 /Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/bin/Debug/net8.0/LandingPage.staticwebassets.endpoints.json
 /Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/bin/Debug/net8.0/LandingPage
@@ -325,3 +319,9 @@
 /Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/obj/Debug/net8.0/LandingPage.pdb
 /Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/obj/Debug/net8.0/LandingPage.genruntimeconfig.cache
 /Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/obj/Debug/net8.0/ref/LandingPage.dll
+/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/bin/Debug/net8.0/publish/web.config
+/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/bin/Debug/net8.0/publish/appsettings.Development.json
+/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/bin/Debug/net8.0/publish/appsettings.json
+/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/bin/Debug/net8.0/publish/LandingPage.deps.json
+/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/bin/Debug/net8.0/publish/LandingPage.runtimeconfig.json
+/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/bin/Debug/net8.0/publish/LandingPage.staticwebassets.endpoints.json

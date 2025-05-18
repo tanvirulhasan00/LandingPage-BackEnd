@@ -98,6 +98,11 @@ builder.Services.AddVersionedApiExplorer(options =>
     options.GroupNameFormat = "'v'VVV";
     options.SubstituteApiVersionInUrl = true;
 });
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.ListenLocalhost(5274); // HTTP
+    options.ListenLocalhost(7255, listenOptions => listenOptions.UseHttps());
+});
 
 var key = builder.Configuration.GetValue<string>("TokenSetting:SecretKey") ?? "";
 
@@ -122,32 +127,29 @@ builder.Services.AddAuthentication(x =>
 // Add Cors.
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowSpecificOrigins", policy =>
-{
-    policy.WithOrigins(
-        "http://localhost:3000",
-        "http://localhost:3001",
-        "http://localhost:5000",
-        "http://localhost:5001",
-        "http://localhost:5173",
-        "http://localhost:5274",
-        "http://httpool-001-site1.anytempurl.com",
-        "https://www.travello.agency",
-        "https://travello.agency",
-        "http://travello.agency",
-        "http://www.travello.agency",
-        "https://verdant-brioche-d5af3b.netlify.app"
-    )
-    .AllowAnyHeader()
-    .AllowAnyMethod();
-});
-
-    // options.AddPolicy("AllowAll", policy =>
+    //     options.AddPolicy("AllowSpecificOrigins", policy =>
     // {
-    //     policy.AllowAnyOrigin()
-    //           .AllowAnyHeader()
-    //           .AllowAnyMethod();
+    //     policy.WithOrigins(
+    //         "http://localhost:5174",
+    //         "https://localhost:5174",
+    //         "http://localhost:5274",
+    //         "https://localhost:7255",
+    //         "http://httpool-001-site1.anytempurl.com",
+    //         "https://httpool-001-site1.anytempurl.com",
+    //         "https://www.travello.agency",
+    //         "https://travello.agency",
+    //         "http://travello.agency",
+    //         "http://www.travello.agency"
+    //     )
+    //     .AllowAnyHeader()
+    //     .AllowAnyMethod();
     // });
+    options.AddPolicy("AllowAll", policy =>
+        {
+            policy.AllowAnyOrigin()
+                  .AllowAnyHeader()
+                  .AllowAnyMethod();
+        });
 });
 
 var app = builder.Build();
@@ -177,7 +179,7 @@ app.MapGet("/", context =>
     context.Response.Redirect("/login");
     return Task.CompletedTask;
 });
-app.UseCors("AllowSpecificOrigins");
+app.UseCors("AllowAll");
 // Enable serving static files from wwwroot
 app.UseDefaultFiles();
 app.UseStaticFiles();

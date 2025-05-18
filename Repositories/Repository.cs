@@ -56,7 +56,14 @@ namespace LandingPage.Repositories
                 }
                 ;
             }
-            var result = await query.FirstOrDefaultAsync(request.CancellationToken) ?? throw new KeyNotFoundException($"Data not found with the specified criteria.");
+            var result = await query.FirstOrDefaultAsync(request.CancellationToken);
+
+            if (result == null)
+            {
+                // Log warning or handle the case here
+                return null;
+            }
+
             return result;
         }
 

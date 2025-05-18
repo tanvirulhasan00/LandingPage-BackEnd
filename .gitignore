@@ -1,0 +1,28 @@
+# Ignore build and output folders
+/bin/
+/obj/
+
+# Ignore the publish folder
+/publish/
+
+# Ignore the wwwroot folder
+/wwwroot/
+
+# Ignore local settings
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore environment files
+*.env
+*.env.local
+secrets.json
+
+# Ignore SSL Certificates (for HTTPS)
+localhost-key.pem
+localhost.pem
+
+# Ignore MacOS files
+.DS_Store

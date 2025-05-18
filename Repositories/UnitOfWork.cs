@@ -24,6 +24,7 @@ namespace LandingPage.Repositories
         public IFileRepository File { get; }
         public IProductDefinationRepository ProductDefination { get; private set; }
         public IAllCostRepository AllCost { get; private set; }
+        public ICompanyRepository CompanyInfo { get; private set; }
 
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
@@ -48,6 +49,7 @@ namespace LandingPage.Repositories
             Auth = new AuthRepository(_dbContext, _userManager, _roleManager, SecretKey, _env, _httpContextAccessor);
             User = new UserRepository(_dbContext, _env);
             ProductDefination = new ProductDefinationRepository(_dbContext);
+            CompanyInfo = new CompanyRepository(_dbContext);
         }
         public async Task<int> Save()
         {

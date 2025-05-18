@@ -73,7 +73,7 @@ namespace LandingPage.Controllers
 
         [HttpGet]
         [Route("get")]
-        [Authorize(Roles = "admin,user")]
+        [Authorize(Roles = "admin,user,guest")]
         public async Task<ApiResponse> GetUser(string Id, CancellationToken cancellationToken)
         {
             var response = new ApiResponse();
@@ -167,7 +167,6 @@ namespace LandingPage.Controllers
                 user.Email = (userDto.Email == null || userDto.Email == "") ? user.Email : userDto.Email;
                 user.Address = (userDto.Address == null || userDto.Address == "") ? user.Address : userDto.Address;
                 user.ImageUrl = userDto.ImageUrl == null ? user.ImageUrl : imageUrl;
-                user.Active = (userDto.Active == null || userDto.Active == "") ? user.Active : int.Parse(userDto.Active);
                 _unitOfWork.User.Update(user);
                 int res = await _unitOfWork.Save();
                 if (res <= 0)
@@ -243,7 +242,7 @@ namespace LandingPage.Controllers
                 }
                 response.Success = true;
                 response.StatusCode = HttpStatusCode.OK;
-                response.Message = "User deactivated successfully";
+                response.Message = "User status changed successfully";
                 return response;
 
             }

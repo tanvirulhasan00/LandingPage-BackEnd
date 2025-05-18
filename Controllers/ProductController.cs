@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
+using System.Security.Claims;
 using System.Threading.Tasks;
 using LandingPage.Models;
 using LandingPage.Models.dto;
@@ -33,7 +34,7 @@ namespace LandingPage.Controllers
                 {
                     Expression = user == "all" ? null : x => x.UserId == user,
                     NoTracking = true,
-                    IncludeProperties = null,
+                    IncludeProperties = "User",
                     CancellationToken = cancellationToken
                 });
                 if (products == null)
@@ -149,6 +150,7 @@ namespace LandingPage.Controllers
                     Name = request.Name,
                     Color = request.Color,
                     Size = request.Size,
+                    ProductDescription = request.ProductDescription,
                     Price = request.Price,
                     ProductImageUrl = productImageUrl,
                     UserId = request.UserId,
@@ -217,6 +219,7 @@ namespace LandingPage.Controllers
                 productToUpdate.Name = (request.Name == null || request.Name == "") ? productToUpdate.Name : request.Name;
                 productToUpdate.Color = (request.Color == null || request.Color == "") ? productToUpdate.Color : request.Color;
                 productToUpdate.Size = (request.Size == null || request.Size == "") ? productToUpdate.Size : request.Size;
+                productToUpdate.ProductDescription = (request.ProductDescription == null || request.ProductDescription == "") ? productToUpdate.ProductDescription : request.ProductDescription;
                 productToUpdate.Price = request.Price == 0 ? productToUpdate.Price : request.Price;
                 productToUpdate.ProductImageUrl = request.ProductImageUrl == null ? productToUpdate.ProductImageUrl : productImageUrl;
 
@@ -243,45 +246,61 @@ namespace LandingPage.Controllers
             }
         }
 
-        [HttpDelete]
-        [Route("delete")]
+        [HttpDelete("delete")]
         [Authorize(Roles = "admin,user")]
         public async Task<ApiResponse> DeleteProduct(int Id, CancellationToken cancellationToken)
         {
             try
             {
-                if (Id < 0)
+                if (Id <= 0)
                 {
                     response.Success = false;
                     response.StatusCode = HttpStatusCode.BadRequest;
                     response.Message = "Valid id required";
                     return response;
                 }
-                var products = await _unitOfWork.Products.GetAsync(new GenericRequest<Product>
+
+                var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+                var userRole = User.FindFirstValue(ClaimTypes.Role);
+
+                var product = await _unitOfWork.Products.GetAsync(new GenericRequest<Product>
                 {
                     Expression = x => x.Id == Id,
                     NoTracking = true,
                     IncludeProperties = null,
                     CancellationToken = cancellationToken
                 });
-                if (products == null)
+
+                if (product == null)
                 {
                     response.Success = false;
                     response.StatusCode = HttpStatusCode.NotFound;
-                    response.Message = "Data not found.";
+                    response.Message = "Product not found.";
                     return response;
                 }
-                if (!string.IsNullOrEmpty(products.ProductImageUrl))
+
+                // Check if the user is an admin or the owner of the product
+                if (userRole == "admin" || (userRole == "user" && product.UserId == userId))
                 {
-                    _unitOfWork.File.DeleteFile(products.ProductImageUrl);
+                    // Delete the image file if it exists
+                    if (!string.IsNullOrEmpty(product.ProductImageUrl))
+                    {
+                        _unitOfWork.File.DeleteFile(product.ProductImageUrl);
+                    }
+
+                    _unitOfWork.Products.Remove(product);
+                    await _unitOfWork.Save();
+
+                    response.Success = true;
+                    response.StatusCode = HttpStatusCode.OK;
+                    response.Message = "Product deleted successfully.";
+                    return response;
                 }
 
-                _unitOfWork.Products.Remove(products);
-                await _unitOfWork.Save();
-
-                response.Success = true;
-                response.StatusCode = HttpStatusCode.OK;
-                response.Message = "Product deleted successfully.";
+                // If not an admin and not the owner
+                response.Success = false;
+                response.StatusCode = HttpStatusCode.Forbidden;
+                response.Message = "You do not have permission to delete this product.";
                 return response;
             }
             catch (TaskCanceledException ex)
@@ -299,5 +318,6 @@ namespace LandingPage.Controllers
                 return response;
             }
         }
+
     }
 }

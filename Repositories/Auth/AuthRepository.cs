@@ -146,10 +146,9 @@ namespace LandingPage.Repositories.Auth
                 {
 
                     //var ff =_roleManager.FindByNameAsync("admin");
-                    // if (!_roleManager.RoleExistsAsync("admin").GetAwaiter().GetResult())
+                    // if (!_roleManager.RoleExistsAsync("guest").GetAwaiter().GetResult())
                     // {
-                    //     await _roleManager.CreateAsync(new IdentityRole("admin"));
-                    //     await _roleManager.CreateAsync(new IdentityRole("user"));
+                    //     await _roleManager.CreateAsync(new IdentityRole("guest"));
                     // }
                     await _userManager.AddToRoleAsync(user, "user");
 
