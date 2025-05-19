@@ -182,7 +182,7 @@ namespace LandingPage.Controllers
                 }
 
                 response.Success = true;
-                response.StatusCode = HttpStatusCode.OK;
+                response.StatusCode = HttpStatusCode.Created;
                 response.Message = "Order Successful";
                 response.Results = orderRes;
                 return response;

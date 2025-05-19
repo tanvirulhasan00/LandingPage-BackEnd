@@ -1,148 +1,244 @@
 {
   "Files": [
     {
-      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/BKash.png",
-      "PackagePath": "staticwebassets/BKash.png"
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/GetData-B_3zUqNf.js",
+      "PackagePath": "staticwebassets/assets/GetData-B_3zUqNf.js"
     },
     {
-      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/XCircleIcon-B-wHPrCc.js",
-      "PackagePath": "staticwebassets/assets/XCircleIcon-B-wHPrCc.js"
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/NotFound-CnN9zqaY.js",
+      "PackagePath": "staticwebassets/assets/NotFound-CnN9zqaY.js"
     },
     {
-      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/bkash-payment-CS23yOV8.js",
-      "PackagePath": "staticwebassets/assets/bkash-payment-CS23yOV8.js"
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/PencilSquareIcon-k7m5bE9X.js",
+      "PackagePath": "staticwebassets/assets/PencilSquareIcon-k7m5bE9X.js"
     },
     {
-      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/button-BHlA_b4V.js",
-      "PackagePath": "staticwebassets/assets/button-BHlA_b4V.js"
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/PlusCircleIcon-DVm0RyyQ.js",
+      "PackagePath": "staticwebassets/assets/PlusCircleIcon-DVm0RyyQ.js"
     },
     {
-      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/chunk-LSOULM7L-DPBAfQZR.js",
-      "PackagePath": "staticwebassets/assets/chunk-LSOULM7L-DPBAfQZR.js"
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/authSlice-Di958kZ3.js",
+      "PackagePath": "staticwebassets/assets/authSlice-Di958kZ3.js"
     },
     {
-      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/dashboard-DUYwbuhS.js",
-      "PackagePath": "staticwebassets/assets/dashboard-DUYwbuhS.js"
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/badge-DEfejkm5.js",
+      "PackagePath": "staticwebassets/assets/badge-DEfejkm5.js"
     },
     {
-      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/data-D4mtTMCN.js",
-      "PackagePath": "staticwebassets/assets/data-D4mtTMCN.js"
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/button-4DXH1abi.js",
+      "PackagePath": "staticwebassets/assets/button-4DXH1abi.js"
     },
     {
-      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/divider-P2BD-NP3.js",
-      "PackagePath": "staticwebassets/assets/divider-P2BD-NP3.js"
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/card-JWkuIQNP.js",
+      "PackagePath": "staticwebassets/assets/card-JWkuIQNP.js"
     },
     {
-      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/entry.client-C7d3y8cI.js",
-      "PackagePath": "staticwebassets/assets/entry.client-C7d3y8cI.js"
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/checkout-C6Q2GScX.js",
+      "PackagePath": "staticwebassets/assets/checkout-C6Q2GScX.js"
     },
     {
-      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/home-BXiw6Zn8.js",
-      "PackagePath": "staticwebassets/assets/home-BXiw6Zn8.js"
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/chunk-GNGMS2XR-jHgNIRfN.js",
+      "PackagePath": "staticwebassets/assets/chunk-GNGMS2XR-jHgNIRfN.js"
     },
     {
-      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/index-Bwn6RjcW.js",
-      "PackagePath": "staticwebassets/assets/index-Bwn6RjcW.js"
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/company-profile-list-DCBYYLRX.js",
+      "PackagePath": "staticwebassets/assets/company-profile-list-DCBYYLRX.js"
     },
     {
-      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/index-Cl6urRmQ.js",
-      "PackagePath": "staticwebassets/assets/index-Cl6urRmQ.js"
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/companyProfileSlice-CbGSBFFa.js",
+      "PackagePath": "staticwebassets/assets/companyProfileSlice-CbGSBFFa.js"
     },
     {
-      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/input-cQhHcnAW.js",
-      "PackagePath": "staticwebassets/assets/input-cQhHcnAW.js"
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/dashboard-BftHxOuI.js",
+      "PackagePath": "staticwebassets/assets/dashboard-BftHxOuI.js"
     },
     {
-      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/login-C6yjpGMY.js",
-      "PackagePath": "staticwebassets/assets/login-C6yjpGMY.js"
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/data-BUDrGiA3.js",
+      "PackagePath": "staticwebassets/assets/data-BUDrGiA3.js"
     },
     {
-      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/manifest-bfeb2a18.js",
-      "PackagePath": "staticwebassets/assets/manifest-bfeb2a18.js"
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/dropdown-menu-CNfLGz0l.js",
+      "PackagePath": "staticwebassets/assets/dropdown-menu-CNfLGz0l.js"
     },
     {
-      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/notification-CQ38g674.js",
-      "PackagePath": "staticwebassets/assets/notification-CQ38g674.js"
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/entry.client-C3--kA62.js",
+      "PackagePath": "staticwebassets/assets/entry.client-C3--kA62.js"
     },
     {
-      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/order-CSwpvFJ7.js",
-      "PackagePath": "staticwebassets/assets/order-CSwpvFJ7.js"
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/eye-BB8-uffO.js",
+      "PackagePath": "staticwebassets/assets/eye-BB8-uffO.js"
     },
     {
-      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/payment-klKDlDkm.js",
-      "PackagePath": "staticwebassets/assets/payment-klKDlDkm.js"
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/floating-ui.react-dom-BtAWv9iB.js",
+      "PackagePath": "staticwebassets/assets/floating-ui.react-dom-BtAWv9iB.js"
     },
     {
-      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/payment-success-DMdUxNRa.js",
-      "PackagePath": "staticwebassets/assets/payment-success-DMdUxNRa.js"
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/home-R7x0R9Ze.js",
+      "PackagePath": "staticwebassets/assets/home-R7x0R9Ze.js"
     },
     {
-      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/product-CcvLqT6v.js",
-      "PackagePath": "staticwebassets/assets/product-CcvLqT6v.js"
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/hooks-CPAHk53f.js",
+      "PackagePath": "staticwebassets/assets/hooks-CPAHk53f.js"
     },
     {
-      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/product_item-Zl6H2JeV.js",
-      "PackagePath": "staticwebassets/assets/product_item-Zl6H2JeV.js"
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/image-slider-Cpt6ZKJn.js",
+      "PackagePath": "staticwebassets/assets/image-slider-Cpt6ZKJn.js"
     },
     {
-      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/product_item_create-gvgGVByL.js",
-      "PackagePath": "staticwebassets/assets/product_item_create-gvgGVByL.js"
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/index-Bz6ABpA4.js",
+      "PackagePath": "staticwebassets/assets/index-Bz6ABpA4.js"
     },
     {
-      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/response-DKRG4e3a.js",
-      "PackagePath": "staticwebassets/assets/response-DKRG4e3a.js"
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/index-DcY79rZM.js",
+      "PackagePath": "staticwebassets/assets/index-DcY79rZM.js"
     },
     {
-      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/root-D0DoCjGS.js",
-      "PackagePath": "staticwebassets/assets/root-D0DoCjGS.js"
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/index-DyypNRnC.js",
+      "PackagePath": "staticwebassets/assets/index-DyypNRnC.js"
     },
     {
-      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/root-DUkBN_YT.css",
-      "PackagePath": "staticwebassets/assets/root-DUkBN_YT.css"
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/index-kklHZ6JZ.js",
+      "PackagePath": "staticwebassets/assets/index-kklHZ6JZ.js"
     },
     {
-      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/table-BvUBn_0u.js",
-      "PackagePath": "staticwebassets/assets/table-BvUBn_0u.js"
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/input-D8wbwSmn.js",
+      "PackagePath": "staticwebassets/assets/input-D8wbwSmn.js"
     },
     {
-      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/text-area-BmYTlfPW.js",
-      "PackagePath": "staticwebassets/assets/text-area-BmYTlfPW.js"
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/jsx-runtime-BjG_zV1W.js",
+      "PackagePath": "staticwebassets/assets/jsx-runtime-BjG_zV1W.js"
     },
     {
-      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/update-user-status-CSiOQHA5.js",
-      "PackagePath": "staticwebassets/assets/update-user-status-CSiOQHA5.js"
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/loading-CDRIeFN9.js",
+      "PackagePath": "staticwebassets/assets/loading-CDRIeFN9.js"
     },
     {
-      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/update-userinfo-CdMRK_a7.js",
-      "PackagePath": "staticwebassets/assets/update-userinfo-CdMRK_a7.js"
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/login-m-ucVrbD.js",
+      "PackagePath": "staticwebassets/assets/login-m-ucVrbD.js"
     },
     {
-      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/update_delivery_status-DrmQ8BwV.js",
-      "PackagePath": "staticwebassets/assets/update_delivery_status-DrmQ8BwV.js"
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/manifest-687d381d.js",
+      "PackagePath": "staticwebassets/assets/manifest-687d381d.js"
     },
     {
-      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/update_payment_status-CqXlXo2X.js",
-      "PackagePath": "staticwebassets/assets/update_payment_status-CqXlXo2X.js"
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/mode-toggler-DmCm_-Qa.js",
+      "PackagePath": "staticwebassets/assets/mode-toggler-DmCm_-Qa.js"
     },
     {
-      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/user-D650JDud.js",
-      "PackagePath": "staticwebassets/assets/user-D650JDud.js"
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/order-list-DwI8izma.js",
+      "PackagePath": "staticwebassets/assets/order-list-DwI8izma.js"
     },
     {
-      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/user-registration-FMcfQAbP.js",
-      "PackagePath": "staticwebassets/assets/user-registration-FMcfQAbP.js"
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/order-success-DUqzz7O6.js",
+      "PackagePath": "staticwebassets/assets/order-success-DUqzz7O6.js"
     },
     {
-      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/with-props-DTHl7Add.js",
-      "PackagePath": "staticwebassets/assets/with-props-DTHl7Add.js"
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/orderSlice-BC2Y7-k8.js",
+      "PackagePath": "staticwebassets/assets/orderSlice-BC2Y7-k8.js"
+    },
+    {
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/payment-D-7t4B9D.js",
+      "PackagePath": "staticwebassets/assets/payment-D-7t4B9D.js"
+    },
+    {
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/product-list-CXXHDInp.js",
+      "PackagePath": "staticwebassets/assets/product-list-CXXHDInp.js"
+    },
+    {
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/productSlice-BYsippDc.js",
+      "PackagePath": "staticwebassets/assets/productSlice-BYsippDc.js"
+    },
+    {
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/react-redux-BSMlLL_u.js",
+      "PackagePath": "staticwebassets/assets/react-redux-BSMlLL_u.js"
+    },
+    {
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/root-DbS-cvHl.js",
+      "PackagePath": "staticwebassets/assets/root-DbS-cvHl.js"
+    },
+    {
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/root-L_RWQspZ.css",
+      "PackagePath": "staticwebassets/assets/root-L_RWQspZ.css"
+    },
+    {
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/root-route-Cbjpxyyj.js",
+      "PackagePath": "staticwebassets/assets/root-route-Cbjpxyyj.js"
+    },
+    {
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/scroll-area-DT1eZTcr.js",
+      "PackagePath": "staticwebassets/assets/scroll-area-DT1eZTcr.js"
+    },
+    {
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/select-B-o1IyGU.js",
+      "PackagePath": "staticwebassets/assets/select-B-o1IyGU.js"
+    },
+    {
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/skeleton-CKCSevCY.js",
+      "PackagePath": "staticwebassets/assets/skeleton-CKCSevCY.js"
+    },
+    {
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/table-skeleton-D_nruTVa.js",
+      "PackagePath": "staticwebassets/assets/table-skeleton-D_nruTVa.js"
+    },
+    {
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/textarea-DKS0rL9d.js",
+      "PackagePath": "staticwebassets/assets/textarea-DKS0rL9d.js"
+    },
+    {
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/theme-provider-DG45blBO.js",
+      "PackagePath": "staticwebassets/assets/theme-provider-DG45blBO.js"
+    },
+    {
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/user-company-profile-create-BUOw3smb.js",
+      "PackagePath": "staticwebassets/assets/user-company-profile-create-BUOw3smb.js"
+    },
+    {
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/user-company-profile-uRrkLHqU.js",
+      "PackagePath": "staticwebassets/assets/user-company-profile-uRrkLHqU.js"
+    },
+    {
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/user-details-DB_31Jqc.js",
+      "PackagePath": "staticwebassets/assets/user-details-DB_31Jqc.js"
+    },
+    {
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/user-info-update-BSpxYQ0I.js",
+      "PackagePath": "staticwebassets/assets/user-info-update-BSpxYQ0I.js"
+    },
+    {
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/user-list-D9bi9aju.js",
+      "PackagePath": "staticwebassets/assets/user-list-D9bi9aju.js"
+    },
+    {
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/user-profile-skeleton-KEM_o0cu.js",
+      "PackagePath": "staticwebassets/assets/user-profile-skeleton-KEM_o0cu.js"
+    },
+    {
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/assets/with-props-BzdG7oMk.js",
+      "PackagePath": "staticwebassets/assets/with-props-BzdG7oMk.js"
     },
     {
       "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/fonts/Chococooky.ttf",
+      "PackagePath": "staticwebassets/fonts/Chococooky.ttf"
+    },
+    {
       "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/images/0518acb9-9a46-4463-98d7-7d8540987c40.jpg",
       "PackagePath": "staticwebassets/images/0518acb9-9a46-4463-98d7-7d8540987c40.jpg"
+    },
+    {
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/images/21ccc6cd-9664-48c0-a92e-5beaa570467d.jpg",
+      "PackagePath": "staticwebassets/images/21ccc6cd-9664-48c0-a92e-5beaa570467d.jpg"
+    },
+    {
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/images/26d9425c-d745-42af-a2a9-e434c539a8fc.png",
+      "PackagePath": "staticwebassets/images/26d9425c-d745-42af-a2a9-e434c539a8fc.png"
+    },
+    {
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/images/31429431-74d5-4b96-b1be-a670ab896280.webp",
+      "PackagePath": "staticwebassets/images/31429431-74d5-4b96-b1be-a670ab896280.webp"
     },
     {
       "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/images/321180f9-d999-43e6-8c0b-5ab0c90025a6.png",
@@ -151,6 +247,10 @@
     {
       "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/images/3441103f-2523-4807-9627-19d07fca0b7a.jpg",
       "PackagePath": "staticwebassets/images/3441103f-2523-4807-9627-19d07fca0b7a.jpg"
+    },
+    {
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/images/40f1d6ed-c9d9-45e1-a89e-911f70bc03e5.png",
+      "PackagePath": "staticwebassets/images/40f1d6ed-c9d9-45e1-a89e-911f70bc03e5.png"
     },
     {
       "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/images/500a0be7-dd78-471f-a5ce-eb4f6c01597b.jpg",
@@ -163,6 +263,18 @@
     {
       "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/images/596a6b7b-cd0f-4efa-a034-d0845657bb8d.jpg",
       "PackagePath": "staticwebassets/images/596a6b7b-cd0f-4efa-a034-d0845657bb8d.jpg"
+    },
+    {
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/images/66159d50-5651-439c-a0ad-bbdacfcff44d.webp",
+      "PackagePath": "staticwebassets/images/66159d50-5651-439c-a0ad-bbdacfcff44d.webp"
+    },
+    {
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/images/89e7a07d-8677-4187-acf4-657b7377d205.png",
+      "PackagePath": "staticwebassets/images/89e7a07d-8677-4187-acf4-657b7377d205.png"
+    },
+    {
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/images/91082248-563b-4b5b-b893-320ad6d7b668.jpg",
+      "PackagePath": "staticwebassets/images/91082248-563b-4b5b-b893-320ad6d7b668.jpg"
     },
     {
       "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/images/ad218521-5471-45c0-ad11-2abc71088efb.jpg",
@@ -183,6 +295,14 @@
     {
       "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/index.html",
       "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/logic-ninja-logo.png",
+      "PackagePath": "staticwebassets/logic-ninja-logo.png"
+    },
+    {
+      "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/no-pictures.png",
+      "PackagePath": "staticwebassets/no-pictures.png"
     },
     {
       "Id": "/Users/tanvir/Documents/Projects/DotNet/Dotnet-8/LandingPage/wwwroot/review-1.png",

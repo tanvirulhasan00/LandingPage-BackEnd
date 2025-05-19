@@ -176,7 +176,7 @@ else
 
 app.MapGet("/", context =>
 {
-    context.Response.Redirect("/login");
+    context.Response.Redirect("/auth/login");
     return Task.CompletedTask;
 });
 app.UseCors("AllowAll");

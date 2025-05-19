@@ -186,7 +186,7 @@ namespace LandingPage.Controllers
                     return response;
                 }
                 response.Success = true;
-                response.StatusCode = HttpStatusCode.OK;
+                response.StatusCode = HttpStatusCode.Created;
                 response.Message = "Company profile created successfully.";
                 return response;
             }
